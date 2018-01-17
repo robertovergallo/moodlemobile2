@@ -61,7 +61,10 @@ angular.module('mm.core.login', [])
     .state('mm_login.site', {
         url: '/site',
         templateUrl: 'core/components/login/templates/site.html',
-        controller: 'mmLoginSiteCtrl'
+        controller: 'mmLoginSiteCtrl',
+    	onEnter: function($state) {
+        	$state.go('mm_login.credentials', {siteurl: 'http://ec2-52-208-109-180.eu-west-1.compute.amazonaws.com/iomad'});
+    	}
     })
 
     .state('mm_login.credentials', {
