@@ -1,14 +1,14 @@
 {
-  "name": "moodlemobile",
-  "version": "3.4.0",
-  "description": "The official app for Moodle.",
+  "name": "nlw_academy",
+  "version": "1.0.0",
+  "description": "The official NLW Academy app.",
   "author": {
-    "name": "Moodle Pty Ltd.",
-    "email": "mobile@moodle.com"
+    "name": "Roberto Vergallo",
+    "email": "info@borndigital.io"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moodlehq/moodlemobile2.git"
+    "url": "https://github.com/robertovergallo/moodlemobile2.git"
   },
   "license": "Apache-2.0",
   "licenses": [
@@ -72,8 +72,8 @@
   },
   "main": "www/electron.js",
   "build": {
-    "appId": "com.moodle.moodledesktop",
-    "productName": "Moodle Desktop",
+    "appId": "com.newlearningway.academy",
+    "productName": "NLW Academy",
     "files": [
       "!desktop",
       "!**/e2e",
@@ -88,9 +88,9 @@
     },
     "protocols": [
       {
-        "name": "Moodle Mobile URL",
+        "name": "NLW Academy URL",
         "schemes": [
-          "moodlemobile"
+          "nlw"
         ],
         "role": "Viewer"
       }
