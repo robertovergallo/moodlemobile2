@@ -5,7 +5,7 @@
  */
 
 // Color palette
-$black:           #3a3a3a; // Headings, standard text.
+$black:           #333333; // Headings, standard text.
 $gray-darker:     #626262; // Text (emphasis-detail), placeholder, background.
 $gray-dark:       #9e9e9e; // Borders (never text).
 $gray:            #dddddd;
@@ -228,3 +228,32 @@ $ionicons-font-path: "../lib/ionic/release/fonts" !default;
 
 // Include all of Moodle Mobile.
 @import "www/build/mm.bundle.scss";
+
+/* Un-comment the following, for initial RTL UI support.
+.scroll-content {
+   direction: rtl; 
+   text-align: right;
+}
+*/
+ 
+ .bar-side-menu {
+   background-color: #80A4D6;
+ }
+ 
+ .bar-content {
+   background-color: #80A4D6;
+ }
+ 
+ .button.button-positive {
+   border-color: #80A4D6;
+   background-color: #80A4D6;
+    color: #fff;
+ } 
+ 
+ .item-divider {
+   background-color: #fafafa;
+ }
+ 
+ .mm-siteurl {
+ 	display: none;
+ }
