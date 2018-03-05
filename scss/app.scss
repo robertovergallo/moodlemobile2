@@ -13,7 +13,7 @@ $gray-light:      #eeeeee; // Background.
 $gray-lighter:    #f5f5f5;
 $white:           #ffffff; // Background, reversed text.
 
-$blue:            #0064d2; // Link, background.
+$blue:            #80A4D6; // Link, background.
 $blue-light:      mix($blue, white, 20%); // Background.
 $blue-dark:       darken($blue, 10%);
 
@@ -50,8 +50,8 @@ $mm-color:          $orange;
 $mm-color-light:    lighten($mm-color, 10%);
 $mm-color-dark:     darken($mm-color, 10%);
 
-$mm-color-init-screen:          #ff5c00;
-$mm-color-init-screen-alt:      #ff7600;
+$mm-color-init-screen:          #80A4D6;
+$mm-color-init-screen-alt:      #80BED6;
 $mm-init-screen-spinner-color:  $white;
 $mm-init-screen-logo-width:     60%;
 $mm-init-screen-logo-max-width: 300px;
@@ -237,16 +237,16 @@ $ionicons-font-path: "../lib/ionic/release/fonts" !default;
 */
  
  .bar-side-menu {
-   background-color: #80A4D6;
+   background-color: $blue;
  }
  
  .bar-content {
-   background-color: #80A4D6;
+   background-color: $blue;
  }
  
  .button.button-positive {
-   border-color: #80A4D6;
-   background-color: #80A4D6;
+   border-color: $blue;
+   background-color: $blue;
     color: #fff;
  } 
  
